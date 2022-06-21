@@ -1,0 +1,601 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>中国检察网</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,
+          user-scalable=no">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+
+    <link rel="stylesheet" href="/sppWeb/js/jquery-weui/css/weui.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/sppWeb/js/dropload/dropload.css">
+
+    <link rel="stylesheet" href='/sppWeb/css/weChat/css/common.css'>
+
+    <meta content="sksLFQy6xWskG244pwaJLLS6kNoeZaQ046iGcEmLZBG" r="m">
+    <!--[if lt IE 9]>
+    <script r='m'>document.createElement("section")</script><![endif]-->
+    <script type="text/javascript" r='m'>
+        $_ts = window['$_ts'];
+        if (!$_ts) $_ts = {};
+        $_ts.nsd = 38863;
+        $_ts.cd = "qJgZrpAliOVrcAVTrkgWrsVccAG.qkVqJAlMmn7qJAQTrkgUtaqTqOVkDSQTqA9EtaqTruVlHfQ.qrqcJu3YWG7Erc0TqA9mJAAMkqVTqugWrc7qJu3xtaqTxsVrHfQTra9EtaqTrsVcHOETqkVrrA7xrrL.qkVoJAAMmuVkHGalJA35kqWTrsgWxuVccaLlhuVcHGaktaqTqrqrHfQ.qkQCcn7qJA3TrugnJAVxcc7qJAWTqkgUtaqTEuQCmsEhcaAwJAE5kqWTqp7WqP7qJAQTrkgUtaqTvOVkHfQTqq7PLqlCWqEmWOKGEn5Ag_QRqOQhqLFCZddgUZjJl6CallvLCaGNptPJ8zywqqAcraAqOaHzU692AmsTJbpbJvgeVxWaKDx2M6yVg0QaAnqeUCdYMCaLMoxLM3SzwKfXtCN0uDZ7Fvw.Fc6iwbSLUn7bs5p0F9YopYwx922bwsJAWl4cJ2rQp1V5K7yCMDGXFUmzuceXQKy.tDdYMCaLMoxLM3SzwKfXKPGOu0YCp6luwbHxR9gC8TfAANpMYVzhpP345CTTFDg.FvsWMnSjwCzLhQyCMDGXFUmzuceXQKy.K1CcQbpo30J1pZ2F3spoQvxO_URi3mwdR1iFKDySMb7LMeYBMcf7QbfzODTTFDg.FvsWMnSjwCzLUJ0BMvmXFT9hLtx73kNbWuovpszQYVJDYWWSROeKMvW6ybNXYO2xHYHFw0g6pkSKMdN21bynpKx.TOA4JCepHsvDQKp.QswpizfRW0TD3KrNTmrhws90YlUT89NVVlRYVeVzROVCJOlubcTjwu2GpKiUY0JGQCyJKJ9zROVCJOlubcTjwu2PwK6BRvrwVkYNYeAgJOwiHCYK96xsFTfKH05pRUrHKC0CVyf13GAcraVSLqESrrRBQoUAQkLTJOVSWx94islaHsqT9aWD3OWuJs11qaWTWsQlcyluikQuWk0S2k7qqk36Hs8GlSLvQPLck.33_SFUSdHTyRGqmqf5iMouTPBhq_QoqFArraqcxuDy6M36XDH2nzKYXfdtFYrYh0yau0a7OfFv8Rz48DGErqXpJOGSiOqeWxGCqqVnraga2O3TWuQCHkDVqnzW3636FZRDpUmBWoJOCOmCAYw83D6oRCpUW6JKFI36Fv3SUTx1SKwWQCTcrqDGqaqmWGQmJjEhJ6gXRbYPODxzwPybwCnW3vRzhbY2FLSf3UqXRK2SODmNFPy9tDhr31SvQUAL3zJThDwzFPfP0oW73DJutDUWMnSGMKALRQe6hDrzRoazSUz2tDwLQc6DMClLRDzvhQR7MPf9FoqzSbSXQcyG3DiWRD2Phbr5hQw.MnfjF6AznoJatDNuRn6x3DZLFC2zhQ2zRPf.FUQznUrBtDf0tDBrQ1SXQbqLFerbRnfLwDzBOD2fQbW.FDOchCS.R1zN3JqBMKTbtC2S2cezwDW.FsUrhCT0W1zNQQQBMKe0tC2XScezF6A.FKOJhCT0QPzNQ79BMUpv3cfXab97FCmdtD4oRcS.MbVLM7SbhDzC31fSC1eaIKl.wDksh6rOMnz0QQ0BQopSt6pSTcea3DA.wooV8nS0MDqLQQ2GhopXMPfS0CQ7wKzftokV8nSC3nzCMESS3K9XwK26aPen3KV.wbssh6xaRczC3JEBQC7XwDRzOorbIcy0QCcWQowPhvpnRLSa8UQXQCYuOowfIPyuMK8WwC2PRczaMzxSRKNCt6ryTce0QDA.Qvhlh6R6Q1znQzQBwvSbt6JXSbV7QCTf3OiWwDTnhvrN3ES03UEXQopnOozPF1ydwDnW8CS6hveLQzGB8owXt6S7uce_tofXwc6rQC7LQbzzQzABFUpOt6rbCPeaRCJ6tDsJMaqlqGJMxQ9nqqrwECwhLqwIEcRUrqUdxCmjqGVaWjqrJOV";
+        if ($_ts.lcd) $_ts.lcd();
+    </script>
+    <script type="text/javascript" charset="utf-8" src="/3mV98frdos0U/gAb7TCdqiIYy.f141528.js" r='m'></script>
+    <script src="/sppWeb/js/bootstrap-3.3.7/js/jquery.min.js"></script>
+
+    <script src="/sppWeb/js/jquery-weui/js/jquery-weui.js"></script>
+
+    <script type='text/javascript' src='/sppWeb/js/jquery-easyui-1.5.1/jquery.easyui.min.js'></script>
+
+    <script src="/sppWeb/css/weChat/js/bg_height.js"></script>
+
+    <script src="/sppWeb/css/weChat/js/public.js"></script>
+
+    <script src="/sppWeb/js/weui.min.js"></script>
+
+    <script src="/sppWeb/js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <!-- 禁止横屏  start -->    <!-- 强制让360浏览器用chrome内核渲染页面 -->
+    <meta name="renderer" content="webkit">
+    <!-- 尽量用IE最新的模式渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- 禁止横屏  end -->
+    <style type="text/css"> .modal-open {
+        overflow: hidden;
+
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        display: none;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+
+    }
+
+    .modal.fade .modal-dialog {
+        -webkit-transition: -webkit-transform .3s ease-out;
+        -o-transition: -o-transform .3s ease-out;
+        transition: transform .3s ease-out;
+        -webkit-transform: translate(0, -25%);
+        -ms-transform: translate(0, -25%);
+        -o-transform: translate(0, -25%);
+        transform: translate(0, -25%);
+
+    }
+
+    .modal.in .modal-dialog {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0);
+
+    }
+
+    .modal-open .modal {
+        overflow-x: hidden;
+        overflow-y: auto;
+
+    }
+
+    .modal-dialog {
+        position: relative;
+        width: auto;
+        margin: 10px;
+
+    }
+
+    .modal-content {
+        position: relative;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #999;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: 6px;
+        outline: 0;
+        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+
+    }
+
+    .modal-backdrop {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1040;
+        background-color: #000;
+
+    }
+
+    .modal-backdrop.fade {
+        filter: alpha(opacity=0);
+        opacity: 0;
+
+    }
+
+    .modal-backdrop.in {
+        filter: alpha(opacity=50);
+        opacity: .5;
+
+    }
+
+    .modal-header {
+        padding: 15px;
+        border-bottom: 1px solid #e5e5e5;
+
+    }
+
+    .modal-header .close {
+        margin-top: -2px;
+
+    }
+
+    .modal-title {
+        margin: 0;
+        line-height: 1.42857143;
+
+    }
+
+    .modal-body {
+        position: relative;
+        padding: 15px;
+
+    }
+
+    .modal-footer {
+        padding: 15px;
+        text-align: right;
+        border-top: 1px solid #e5e5e5;
+
+    }
+
+    .modal-footer .btn + .btn {
+        margin-bottom: 0;
+        margin-left: 5px;
+
+    }
+
+    .modal-footer .btn-group .btn + .btn {
+        margin-left: -1px;
+
+    }
+
+    .modal-footer .btn-block + .btn-block {
+        margin-left: 0;
+
+    }
+
+    .modal-scrollbar-measure {
+        position: absolute;
+        top: -9999px;
+        width: 50px;
+        height: 50px;
+        overflow: scroll;
+
+    }
+
+
+    @media (min-width: 768px) {
+        .modal-dialog {
+            width: 600px;
+            margin: 30px auto;
+
+        }
+
+        .modal-content {
+            -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+
+        }
+
+        .modal-sm {
+            width: 300px;
+
+        }
+
+
+    }
+
+
+    @media (min-width: 992px) {
+        .modal-lg {
+            width: 900px;
+
+        }
+
+
+    }
+
+    .ajax_my_upload_file_ctl {
+        width: 10px;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 10;
+
+    }
+
+    .progress {
+        height: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+
+    }
+
+    .progress-bar {
+        float: left;
+        width: 0;
+        height: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+        text-align: center;
+        background-color: #337ab7;
+        -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+        -webkit-transition: width .6s ease;
+        -o-transition: width .6s ease;
+        transition: width .6s ease;
+
+    }
+
+    .bg-danger, .bg-error {
+        background-color: #f6383a;
+
+    }
+
+    .bg-warning {
+        background-color: #f6383a;
+
+    }
+
+    .bg-success {
+        background-color: #4cd964;
+
+    }
+
+    </style>
+
+    <script type="text/javascript">
+        function ajaxUploadFile(fileType, vOwner, callback) {
+            $("#idMyUploadFileType").val(fileType);
+            $("#idUploadFolderType").val("1");
+            var objTmp = $(".ajax_my_upload_file_ctl");
+            objTmp[0].upload_completed_callback = callback;
+            objTmp[0].btn_owner = vOwner;
+            objTmp.trigger("click");
+        }
+
+        function ajaxUploadFilePetition(fileType, vOwner, callback) {
+            $("#idMyUploadFileType").val(fileType);
+            $("#idUploadFolderType").val("2");
+            var objTmp = $(".ajax_my_upload_file_ctl");
+            objTmp[0].upload_completed_callback = callback;
+            objTmp[0].btn_owner = vOwner;
+            objTmp.trigger("click");
+        }
+
+        function myFileUpload_OnChange(obj) {
+            if ("" == obj.value) return false;
+            var fileSize = obj.files[0].size;
+            var size = fileSize / 1024 / 1024;
+            if (size > 50) {
+                alert("上传文件最大不能超过50M")
+                obj.value = "";
+                return false;
+            }
+            $('#myFileUploadProgressModal').modal('show');
+            $("#myFileUploader_progress_rate").css("width", "0%");
+            $("#myFileUploader_percent").text("0%");
+
+            function progressBar(evt) {
+                var loaded = evt.loaded;
+                var tot = evt.total;
+                var rate = Math.floor(100 * loaded / tot);
+                $("#myFileUploader_progress_rate").css("width", rate + "%");
+                $("#myFileUploader_percent").text(rate + "%");
+            }
+
+            var folderType = $("#idUploadFolderType").val();
+            var url = "";
+            if (folderType == 1) url = "/sppWeb/weChat/uploadFileNew"; else if (folderType == 2) url = "/sppWeb/weChat/uploadFilePetition";
+            $.ajax({
+                url: url,
+                type: "post",
+                data: new FormData($('#myFileUploadFrm')[0]),
+                cache: false,
+                processData: false,
+                dataType: 'json',
+                contentType: false,
+                xhr: function () {
+                    var xhr = $.ajaxSettings.xhr();
+                    if (xhr.upload) xhr.upload.addEventListener("progress", progressBar, false);
+                    return xhr;
+                },
+                success: function (data) {
+                    $('#myFileUploadProgressModal').modal('hide');
+                    if (isEmpty(data)) {
+                        alert("网络错误，请重试！");
+                        var objFile = $(".ajax_my_upload_file_ctl");
+                        objFile.after(objFile.clone().val(""));
+                        objFile.remove();
+                        return;
+                    }
+                    if (!data.result) {
+                        if (isEmpty(data.message)) alert("网络错误，请重试！"); else alert(data.message);
+                        var objFile = $(".ajax_my_upload_file_ctl");
+                        objFile.after(objFile.clone().val(""));
+                        objFile.remove();
+                        return;
+                    }
+                    if (typeof obj.upload_completed_callback === "function") {
+                        obj.upload_completed_callback(data, obj.btn_owner);
+                    } else alert("文件上传成功");
+                    var objFile = $(".ajax_my_upload_file_ctl");
+                    objFile.after(objFile.clone().val(""));
+                    objFile.remove();
+                },
+                error: function (e) {
+                    $('#myFileUploadProgressModal').modal('hide');
+                    alert("网络错误，请重试！");
+                    var objFile = $(".ajax_my_upload_file_ctl");
+                    objFile.after(objFile.clone().val(""));
+                    objFile.remove();
+                }
+            });
+        }
+
+        function getRndNum(n) {
+            var rnd = "";
+            for (var i = 0; i < n; i++) rnd += Math.floor(Math.random() * 10);
+            return rnd;
+        }
+
+        function isEmpty(str) {
+            if ($.trim(str) == '') {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
+
+    <meta name="layout" content="weChat">
+
+    <link rel="stylesheet" href="/sppWeb/css/weChat/css/wdaj_1.css">
+
+</head>
+
+<body>
+<div class="container zjyh
+">
+    <div class="container zjyh
+">
+        <div class="pd25">
+            <div class="common4">
+                <div class="bt"><i></i>
+                    <h2>法律文书详情</h2></div>
+
+                <html>
+                <head>
+                    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+                    <style type="text/css">.b1 {
+                        white-space-collapsing: preserve;
+                    }
+
+                    .b2 {
+                        margin: 1.0in 1.25in 1.0in 1.25in;
+                    }
+
+                    .p1 {
+                        text-align: center;
+                        hyphenate: auto;
+                        font-family: 宋体;
+                        font-size: 18pt;
+                    }
+
+                    .p2 {
+                        text-align: center;
+                        hyphenate: auto;
+                        font-family: 宋体;
+                        font-size: 22pt;
+                    }
+
+                    .p3 {
+                        text-indent: 2.6930556in;
+                        text-align: right;
+                        hyphenate: auto;
+                        font-family: 楷体_GB2312, 华文楷体, 楷体;
+                        font-size: 14pt;
+                    }
+
+                    .p4 {
+                        text-align: justify;
+                        hyphenate: auto;
+                        font-family: 仿宋_GB2312, 华文仿宋, 仿宋;
+                        font-size: 16pt;
+                    }
+
+                    .p5 {
+                        text-align: justify;
+                        hyphenate: auto;
+                        font-family: 仿宋_GB2312, 华文仿宋, 仿宋;
+                        font-size: 16pt;
+                    }
+
+                    .p6 {
+                        text-align: right;
+                        hyphenate: auto;
+                        font-family: 仿宋_GB2312, 华文仿宋, 仿宋;
+                        font-size: 16pt;
+                    }
+
+                    .p7 {
+                        text-align: center;
+                        hyphenate: auto;
+                        font-family: 仿宋_GB2312, 华文仿宋, 仿宋;
+                        font-size: 16pt;
+                    }
+
+                    .p8 {
+                        text-indent: -0.8888889in;
+                        margin-left: 0.8888889in;
+                        text-align: justify;
+                        hyphenate: auto;
+                        font-family: 仿宋_GB2312, 华文仿宋, 仿宋;
+                        font-size: 16pt;
+                    }
+
+                    .p9 {
+                        text-indent: 0.6486111in;
+                        text-align: justify;
+                        hyphenate: auto;
+                        font-family: 仿宋_GB2312, 华文仿宋, 仿宋;
+                        font-size: 16pt;
+                    }
+
+                    .s1 {
+                        font-weight: bold;
+                    }
+
+                    .s2 {
+                        font-family: 仿宋_GB2312, 华文仿宋, 仿宋;
+                    }
+
+                    </style>
+                    <title>城关区人民检察院</title>
+                    <meta content="吴鹏" name="author">
+
+                    <meta content="2C5D938D068C4726BDE32135A041E5BA" name="description">
+
+                </head>
+
+                <body class="b1 b2
+        "><p class="p1"><span>城关区人民检察院</span><span>　</span></p>
+                <p class="p2"><span class="s1">起&nbsp;诉&nbsp;书</span>
+                </p>
+                <p class="p3"></p>
+                <p class="p3"><span>城检刑诉〔2022〕176号</span><span>　</span></p>
+                <p
+                        class="p4"></p>
+                <p class="p5"><span>　　</span><span class="s2">被告人阿珠，男，1974年**月**日出生，公民身份号码5421231974********，**族，文盲，无业，户籍地西藏昌都贡觉县，住拉萨市城关区**乡**村**号。因本案于2022年3月15日被拉萨市公安局城关公安分局取保候审。</span>
+                </p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;本案由拉萨市公安局城关公安分局侦查终结，以被告人阿珠涉嫌危险驾驶罪，于2022年5月17日向本院移送审查起诉。本院受理后，于2022年5月17日（同日）已告知被告人有权委托辩护人及认罪认罚可能导致的法律后果，听取了被告人及值班律师的意见。依法讯问被告人，审查了全部案件材料。被告人同意本案适用速裁程序审理。</span>
+                </p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;经依法审查查明：</span></p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;2022年03月06日23时50分许，被告人阿珠驾驶藏A8****号小型越野客车，沿拉萨市拉萨大桥由东向西行驶，当行驶至拉萨大桥北桥头时，因涉嫌醉酒驾驶机动车被酒驾整治组民警当场查获。事后对被告人阿珠进行一次呼气式酒精检测，酒精检测结果为202mg/100ml，涉嫌醉酒驾车，民警将被告人阿珠带至西藏自治区人民医院提取血样，由拉萨市公安局刑事科学技术研究所对提取的血样进行血液中乙醇含量检验鉴定，被告人阿珠血样中乙醇含量为210.81mg/100ml，依据国家标准（GA/T1073-2013），证实被告人阿珠被查获时属醉酒后驾驶机动车。</span>
+                </p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;认定上述事实的证据如下：</span></p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;1.书证：呼吸酒精含量检测记录表、户籍资料、提取血样笔录；</span>
+                </p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;2.证人证言：证人松某某证言；</span></p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;3.被告人供述与辩解：被告人阿珠的供述；</span>
+                </p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;4.鉴定意见：理化检验鉴定报告；</span></p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;5.视听资料：查处过程、抽血过程录像等。</span>
+                </p>
+                <p class="p4">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;上述证据收集程序合法，内容客观真实，足以认定指控的犯罪事实。被告人阿珠对指控的犯罪事实和证据没有异议，自愿认罪认罚。</span></p>
+                <p
+                        class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;本院认为，被告人阿珠在道路上醉酒驾驶机动车危害公共安全，其行为触犯了《中华人民共和国刑法》第一百三十三条之一第一款第（二）项规定，犯罪事实清楚，证据确实、充分，应当以危险驾驶罪追究其刑事责任。被告人阿珠归案后，如实供述自己的罪行，根据《中华人民共和国刑法》第六十七条第三款的规定，可以从轻处罚。被告人阿珠认罪认罚，依据《中华人民共和国刑事诉讼法》第十五条的规定，可以从宽处理。综合全案情况，建议判处被告人阿珠拘役四个月，缓刑五个月，并处罚金人民币六千元。根据《中华人民共和国刑事诉讼法》第一百七十六条的规定，提起公诉，请依法判处。</span>
+                </p>
+                <p class="p4"></p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;此致</span></p>
+                <p class="p4">
+                    <span>拉萨市城关区人民法院</span></p>
+                <p class="p6"></p>
+                <p class="p6"><span>检&nbsp;&nbsp;察&nbsp;&nbsp;官&nbsp;次仁央宗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </p>
+                <p class="p7"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;书&nbsp;&nbsp;记&nbsp;&nbsp;员&nbsp;旦维增&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </p>
+                <p class="p6"></p>
+                <p class="p6">
+                    <span>2022年5月19日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+                <p class="p4"></p>
+                <p
+                        class="p8"><span>附件：1.被告人阿珠现被取保候审，住拉萨市城关区**乡**村**号</span></p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.案卷材料和证据贰册、光盘贰张</span>
+                </p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.《认罪认罚具结书》一份</span></p>
+                <p class="p4"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.《量刑建议书》一份</span>
+                </p>
+                <p class="p9"></p>
+                </body>
+
+                </html>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_logo pd25"><img
+            src="/sppWeb/css/weChat/images/weixin/bootom_logo.png"/></div>
+</div>
+<div id="myFileUploadProgressModal" class="modal
+     fade" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header"><h4 class="modal-title">文件上传进度</h4></div>
+
+            <div class="modal-body">
+                <form id="myFileUploadFrm" method="post" enctype="multipart/form-data"><input type="hidden"
+                                                                                              id="idMyUploadFileType"
+                                                                                              name="myUploadFileType"
+                                                                                              value="1"/>
+                    <input type="hidden" id="idMyUploaderProcessKey" name="myUploaderProcessKey" value=""/>
+                    <input type="hidden" id="idUploadFolderType"/> <input type="file"
+                                                                          class="ajax_my_upload_file_ctl"
+                                                                          name="myFileUploader"
+                                                                          onchange="myFileUpload_OnChange(this);">
+                </form>
+
+                <div class="progress">
+                    <div id="myFileUploader_progress_rate" aria-valuenow="0" aria-valuemin="0"
+                         aria-valuemax="100" class="progress-bar" role="progressbar" style="width:0%;">
+                        <span id="myFileUploader_percent">0%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
